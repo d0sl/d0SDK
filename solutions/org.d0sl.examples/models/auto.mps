@@ -33,6 +33,9 @@
         <reference id="1188214555875" name="key" index="2B6OnR" />
         <child id="1188214607812" name="value" index="2B70Vg" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -65,6 +68,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -98,7 +102,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -167,13 +170,6 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3cqZAl" id="2q64CM40J_s" role="3clF45" />
-      <node concept="37vLTG" id="2q64CM40J_t" role="3clF46">
-        <property role="TrG5h" value="semantic" />
-        <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="2q64CM40J_u" role="1tU5fm">
-          <ref role="3uigEE" to="bgso:~SemanticMachine" resolve="SemanticMachine" />
-        </node>
-      </node>
       <node concept="3clFbS" id="2q64CM40J_v" role="3clF47">
         <node concept="3clFbF" id="2q64CM40J_w" role="3cqZAp">
           <node concept="37vLTI" id="2q64CM40J_x" role="3clFbG">
@@ -181,11 +177,8 @@
               <ref role="3cqZAo" node="2q64CM40J_n" resolve="autodrome" />
             </node>
             <node concept="2ShNRf" id="2q64CM42EJP" role="37vLTx">
-              <node concept="1pGfFk" id="2q64CM42EK0" role="2ShVmc">
-                <ref role="37wK5l" to="7hnx:2q64CM40JYw" resolve="AIAutodrome" />
-                <node concept="37vLTw" id="2q64CM42EK1" role="37wK5m">
-                  <ref role="3cqZAo" node="2q64CM40J_t" resolve="semantic" />
-                </node>
+              <node concept="HV5vD" id="7uJH3WsDDdN" role="2ShVmc">
+                <ref role="HV5vE" to="7hnx:2q64CM40JXS" resolve="AIAutodrome" />
               </node>
             </node>
           </node>
@@ -405,6 +398,223 @@
       <node concept="3Tm1VV" id="2q64CM40JAx" role="1B3o_S" />
       <node concept="10P_77" id="2q64CM40JAy" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="7jT0QTCxpDl" role="jymVt" />
+    <node concept="3clFb_" id="7jT0QTCxqg0" role="jymVt">
+      <property role="TrG5h" value="isRoadSign" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="7jT0QTCxqg1" role="2AJF6D">
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
+        <node concept="2B6LJw" id="7jT0QTCxqg2" role="2B76xF">
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
+          <node concept="Xl_RD" id="7jT0QTCxqg3" role="2B70Vg">
+            <property role="Xl_RC" value="road sign ahead" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7jT0QTCxqg4" role="3clF46">
+        <property role="TrG5h" value="car" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="7jT0QTCxqg5" role="1tU5fm">
+          <ref role="3uigEE" to="7hnx:2q64CM40JEE" resolve="RoboCar" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7jT0QTCxqCP" role="3clF46">
+        <property role="TrG5h" value="direction" />
+        <node concept="17QB3L" id="7jT0QTCxqSO" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="7jT0QTCxqg6" role="3clF47">
+        <node concept="3cpWs6" id="7jT0QTCxqg7" role="3cqZAp">
+          <node concept="2OqwBi" id="7jT0QTCxqg8" role="3cqZAk">
+            <node concept="37vLTw" id="7jT0QTCxqg9" role="2Oq$k0">
+              <ref role="3cqZAo" node="2q64CM40J_n" resolve="autodrome" />
+            </node>
+            <node concept="liA8E" id="7jT0QTCxqga" role="2OqNvi">
+              <ref role="37wK5l" to="7hnx:7jT0QTCsCwg" resolve="isRoadSignAhead" />
+              <node concept="37vLTw" id="7jT0QTCxqgb" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCxqg4" resolve="car" />
+              </node>
+              <node concept="37vLTw" id="7jT0QTCxrzu" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCxqCP" resolve="direction" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7jT0QTCxqgc" role="1B3o_S" />
+      <node concept="10P_77" id="7jT0QTCxqgd" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7jT0QTCxpWE" role="jymVt" />
+    <node concept="3clFb_" id="7jT0QTCxs8h" role="jymVt">
+      <property role="TrG5h" value="isRoadSignLeft" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="7jT0QTCxs8i" role="2AJF6D">
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
+        <node concept="2B6LJw" id="7jT0QTCxs8j" role="2B76xF">
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
+          <node concept="Xl_RD" id="7jT0QTCxs8k" role="2B70Vg">
+            <property role="Xl_RC" value="road sign left" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7jT0QTCxs8l" role="3clF46">
+        <property role="TrG5h" value="car" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="7jT0QTCxs8m" role="1tU5fm">
+          <ref role="3uigEE" to="7hnx:2q64CM40JEE" resolve="RoboCar" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7jT0QTCxs8n" role="3clF46">
+        <property role="TrG5h" value="direction" />
+        <node concept="17QB3L" id="7jT0QTCxs8o" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="7jT0QTCxs8p" role="3clF47">
+        <node concept="3cpWs6" id="7jT0QTCxs8q" role="3cqZAp">
+          <node concept="2OqwBi" id="7jT0QTCxs8r" role="3cqZAk">
+            <node concept="37vLTw" id="7jT0QTCxs8s" role="2Oq$k0">
+              <ref role="3cqZAo" node="2q64CM40J_n" resolve="autodrome" />
+            </node>
+            <node concept="liA8E" id="7jT0QTCxs8t" role="2OqNvi">
+              <ref role="37wK5l" to="7hnx:7jT0QTCwgYa" resolve="isRoadSignLeft" />
+              <node concept="37vLTw" id="7jT0QTCxs8u" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCxs8l" resolve="car" />
+              </node>
+              <node concept="37vLTw" id="7jT0QTCxs8v" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCxs8n" resolve="direction" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7jT0QTCxs8w" role="1B3o_S" />
+      <node concept="10P_77" id="7jT0QTCxs8x" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7jT0QTCIGK6" role="jymVt" />
+    <node concept="3clFb_" id="7jT0QTCIGlX" role="jymVt">
+      <property role="TrG5h" value="isRoadSignLeft90" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="7jT0QTCIGlY" role="2AJF6D">
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
+        <node concept="2B6LJw" id="7jT0QTCIGlZ" role="2B76xF">
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
+          <node concept="Xl_RD" id="7jT0QTCIGm0" role="2B70Vg">
+            <property role="Xl_RC" value="road sign left 90" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7jT0QTCIGm1" role="3clF46">
+        <property role="TrG5h" value="car" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="7jT0QTCIGm2" role="1tU5fm">
+          <ref role="3uigEE" to="7hnx:2q64CM40JEE" resolve="RoboCar" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7jT0QTCIGm5" role="3clF47">
+        <node concept="3cpWs6" id="7jT0QTCIGm6" role="3cqZAp">
+          <node concept="2OqwBi" id="7jT0QTCIGm7" role="3cqZAk">
+            <node concept="37vLTw" id="7jT0QTCIGm8" role="2Oq$k0">
+              <ref role="3cqZAo" node="2q64CM40J_n" resolve="autodrome" />
+            </node>
+            <node concept="liA8E" id="7jT0QTCIGm9" role="2OqNvi">
+              <ref role="37wK5l" to="7hnx:7jT0QTCOcSS" resolve="isRoadSignLeft90" />
+              <node concept="37vLTw" id="7jT0QTCINAu" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCIGm1" resolve="car" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7jT0QTCIGmc" role="1B3o_S" />
+      <node concept="10P_77" id="7jT0QTCIGmd" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7jT0QTCLN_u" role="jymVt" />
+    <node concept="3clFb_" id="7jT0QTCLNaE" role="jymVt">
+      <property role="TrG5h" value="isRoadSignRight90" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="7jT0QTCLNaF" role="2AJF6D">
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
+        <node concept="2B6LJw" id="7jT0QTCLNaG" role="2B76xF">
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
+          <node concept="Xl_RD" id="7jT0QTCLNaH" role="2B70Vg">
+            <property role="Xl_RC" value="road sign right 90" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7jT0QTCLNaI" role="3clF46">
+        <property role="TrG5h" value="car" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="7jT0QTCLNaJ" role="1tU5fm">
+          <ref role="3uigEE" to="7hnx:2q64CM40JEE" resolve="RoboCar" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7jT0QTCLNaK" role="3clF47">
+        <node concept="3cpWs6" id="7jT0QTCLNaL" role="3cqZAp">
+          <node concept="2OqwBi" id="7jT0QTCLNaM" role="3cqZAk">
+            <node concept="37vLTw" id="7jT0QTCLNaN" role="2Oq$k0">
+              <ref role="3cqZAo" node="2q64CM40J_n" resolve="autodrome" />
+            </node>
+            <node concept="liA8E" id="7jT0QTCLNaO" role="2OqNvi">
+              <ref role="37wK5l" to="7hnx:7jT0QTCEq2B" resolve="isRoadSignRight90" />
+              <node concept="37vLTw" id="7jT0QTCLNaP" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCLNaI" resolve="car" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7jT0QTCLNaQ" role="1B3o_S" />
+      <node concept="10P_77" id="7jT0QTCLNaR" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7jT0QTCxrNM" role="jymVt" />
+    <node concept="3clFb_" id="7jT0QTCxtrX" role="jymVt">
+      <property role="TrG5h" value="isRoadSignRight" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="7jT0QTCxtrY" role="2AJF6D">
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
+        <node concept="2B6LJw" id="7jT0QTCxtrZ" role="2B76xF">
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
+          <node concept="Xl_RD" id="7jT0QTCxts0" role="2B70Vg">
+            <property role="Xl_RC" value="road sign right" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7jT0QTCxts1" role="3clF46">
+        <property role="TrG5h" value="car" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="7jT0QTCxts2" role="1tU5fm">
+          <ref role="3uigEE" to="7hnx:2q64CM40JEE" resolve="RoboCar" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7jT0QTCxts3" role="3clF46">
+        <property role="TrG5h" value="direction" />
+        <node concept="17QB3L" id="7jT0QTCxts4" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="7jT0QTCxts5" role="3clF47">
+        <node concept="3cpWs6" id="7jT0QTCxts6" role="3cqZAp">
+          <node concept="2OqwBi" id="7jT0QTCxts7" role="3cqZAk">
+            <node concept="37vLTw" id="7jT0QTCxts8" role="2Oq$k0">
+              <ref role="3cqZAo" node="2q64CM40J_n" resolve="autodrome" />
+            </node>
+            <node concept="liA8E" id="7jT0QTCxts9" role="2OqNvi">
+              <ref role="37wK5l" to="7hnx:7jT0QTCwCCJ" resolve="isRoadSignRight" />
+              <node concept="37vLTw" id="7jT0QTCxtsa" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCxts1" resolve="car" />
+              </node>
+              <node concept="37vLTw" id="7jT0QTCxtsb" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCxts3" resolve="direction" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7jT0QTCxtsc" role="1B3o_S" />
+      <node concept="10P_77" id="7jT0QTCxtsd" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7jT0QTCxt6l" role="jymVt" />
     <node concept="3clFb_" id="2q64CM40JAz" role="jymVt">
       <property role="TrG5h" value="isCarAhead" />
       <property role="DiZV1" value="false" />
@@ -715,6 +925,7 @@
       <node concept="3Tm1VV" id="2q64CM40JC4" role="1B3o_S" />
       <node concept="10P_77" id="2q64CM40JC5" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="7jT0QTCAvzA" role="jymVt" />
     <node concept="3clFb_" id="2q64CM40JC6" role="jymVt">
       <property role="TrG5h" value="addRoadSign" />
       <property role="DiZV1" value="false" />
@@ -768,6 +979,61 @@
       </node>
       <node concept="3Tm1VV" id="2q64CM40JCm" role="1B3o_S" />
       <node concept="10P_77" id="2q64CM40JCn" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7jT0QTCAwgX" role="jymVt" />
+    <node concept="3clFb_" id="7jT0QTCAvTc" role="jymVt">
+      <property role="TrG5h" value="addCar" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="7jT0QTCAvTd" role="2AJF6D">
+        <ref role="2AI5Lk" to="o00z:~DomainFunction" resolve="DomainFunction" />
+        <node concept="2B6LJw" id="7jT0QTCAvTe" role="2B76xF">
+          <ref role="2B6OnR" to="o00z:~DomainFunction.name()" resolve="name" />
+          <node concept="Xl_RD" id="7jT0QTCAvTf" role="2B70Vg">
+            <property role="Xl_RC" value="add car" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7jT0QTCAvTg" role="3clF46">
+        <property role="TrG5h" value="row" />
+        <property role="3TUv4t" value="false" />
+        <node concept="10P55v" id="7jT0QTCAvTh" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7jT0QTCAvTi" role="3clF46">
+        <property role="TrG5h" value="col" />
+        <property role="3TUv4t" value="false" />
+        <node concept="10P55v" id="7jT0QTCAvTj" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7jT0QTCAvTk" role="3clF46">
+        <property role="TrG5h" value="direction" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="7jT0QTCAvTl" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7jT0QTCAvTm" role="3clF47">
+        <node concept="3cpWs6" id="7jT0QTCAvTn" role="3cqZAp">
+          <node concept="2OqwBi" id="7jT0QTCAvTo" role="3cqZAk">
+            <node concept="37vLTw" id="7jT0QTCAvTp" role="2Oq$k0">
+              <ref role="3cqZAo" node="2q64CM40J_n" resolve="autodrome" />
+            </node>
+            <node concept="liA8E" id="7jT0QTCAvTq" role="2OqNvi">
+              <ref role="37wK5l" to="7hnx:7jT0QTCxxkX" resolve="addCar" />
+              <node concept="37vLTw" id="7jT0QTCAvTr" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCAvTg" resolve="row" />
+              </node>
+              <node concept="37vLTw" id="7jT0QTCAvTs" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCAvTi" resolve="col" />
+              </node>
+              <node concept="37vLTw" id="7jT0QTCAvTt" role="37wK5m">
+                <ref role="3cqZAo" node="7jT0QTCAvTk" resolve="direction" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7jT0QTCAvTu" role="1B3o_S" />
+      <node concept="10P_77" id="7jT0QTCAvTv" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="7dyB76Fp5j$" role="jymVt" />
     <node concept="3clFb_" id="7dyB76Fp9ba" role="jymVt">
@@ -839,6 +1105,10 @@
           </node>
         </node>
       </node>
+      <node concept="37vLTG" id="7uJH3WsFD7u" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="17QB3L" id="7uJH3WsFDqm" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="2q64CM40JCs" role="3clF46">
         <property role="TrG5h" value="carNumber" />
         <property role="3TUv4t" value="false" />
@@ -857,6 +1127,9 @@
             </node>
             <node concept="liA8E" id="2q64CM42EBL" role="2OqNvi">
               <ref role="37wK5l" to="7hnx:2q64CM40Kjv" resolve="start" />
+              <node concept="37vLTw" id="7uJH3WsFEep" role="37wK5m">
+                <ref role="3cqZAo" node="7uJH3WsFD7u" resolve="model" />
+              </node>
               <node concept="37vLTw" id="2q64CM42EBM" role="37wK5m">
                 <ref role="3cqZAo" node="2q64CM40JCs" resolve="carNumber" />
               </node>
