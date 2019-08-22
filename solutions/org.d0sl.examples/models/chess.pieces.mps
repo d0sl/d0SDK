@@ -186,7 +186,7 @@
                 <ref role="3VsUkX" node="2q64CM40JDS" resolve="Piece" />
               </node>
               <node concept="liA8E" id="2q64CM40JKX" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                <ref role="37wK5l" to="wyt6:~Class.getClassLoader()" resolve="getClassLoader" />
               </node>
             </node>
           </node>
@@ -206,7 +206,7 @@
                     <ref role="3cqZAo" node="2q64CM40JKR" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM486rm" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM486rn" role="37wK5m">
                       <property role="Xl_RC" value="chess/wqueen.png" />
                     </node>
@@ -226,7 +226,7 @@
                 <ref role="3cqZAo" node="2q64CM40JKY" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486pY" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -244,7 +244,7 @@
                     <ref role="3cqZAo" node="2q64CM40JKR" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM486tb" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM486tc" role="37wK5m">
                       <property role="Xl_RC" value="chess/bqueen.png" />
                     </node>
@@ -264,7 +264,7 @@
                 <ref role="3cqZAo" node="2q64CM40JKY" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486rU" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -386,7 +386,7 @@
                 <ref role="3VsUkX" node="2q64CM40JDS" resolve="Piece" />
               </node>
               <node concept="liA8E" id="2q64CM40KG8" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                <ref role="37wK5l" to="wyt6:~Class.getClassLoader()" resolve="getClassLoader" />
               </node>
             </node>
           </node>
@@ -406,7 +406,7 @@
                     <ref role="3cqZAo" node="2q64CM40KG2" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM486xw" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM486xx" role="37wK5m">
                       <property role="Xl_RC" value="chess/wpawn.png" />
                     </node>
@@ -426,7 +426,7 @@
                 <ref role="3cqZAo" node="2q64CM40KG9" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486wp" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -444,7 +444,7 @@
                     <ref role="3cqZAo" node="2q64CM40KG2" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM48QX9" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM48QXa" role="37wK5m">
                       <property role="Xl_RC" value="chess/bpawn.png" />
                     </node>
@@ -464,7 +464,7 @@
                 <ref role="3cqZAo" node="2q64CM40KG9" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486y4" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -586,7 +586,7 @@
                 <ref role="3VsUkX" node="2q64CM40JDS" resolve="Piece" />
               </node>
               <node concept="liA8E" id="2q64CM40KEY" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                <ref role="37wK5l" to="wyt6:~Class.getClassLoader()" resolve="getClassLoader" />
               </node>
             </node>
           </node>
@@ -606,7 +606,7 @@
                     <ref role="3cqZAo" node="2q64CM40KES" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM48QYj" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM48QYk" role="37wK5m">
                       <property role="Xl_RC" value="chess/wking.png" />
                     </node>
@@ -626,7 +626,7 @@
                 <ref role="3cqZAo" node="2q64CM40KEZ" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486yd" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -644,7 +644,7 @@
                     <ref role="3cqZAo" node="2q64CM40KES" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM486_W" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM486_X" role="37wK5m">
                       <property role="Xl_RC" value="chess/bking.png" />
                     </node>
@@ -664,7 +664,7 @@
                 <ref role="3cqZAo" node="2q64CM40KEZ" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486$L" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -786,7 +786,7 @@
                 <ref role="3VsUkX" node="2q64CM40JDS" resolve="Piece" />
               </node>
               <node concept="liA8E" id="2q64CM40JTT" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                <ref role="37wK5l" to="wyt6:~Class.getClassLoader()" resolve="getClassLoader" />
               </node>
             </node>
           </node>
@@ -806,7 +806,7 @@
                     <ref role="3cqZAo" node="2q64CM40JTN" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM48QYE" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM48QYF" role="37wK5m">
                       <property role="Xl_RC" value="chess/wtower.png" />
                     </node>
@@ -826,7 +826,7 @@
                 <ref role="3cqZAo" node="2q64CM40JTU" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486Bn" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -844,7 +844,7 @@
                     <ref role="3cqZAo" node="2q64CM40JTN" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM486E6" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM486E7" role="37wK5m">
                       <property role="Xl_RC" value="chess/btower.png" />
                     </node>
@@ -864,7 +864,7 @@
                 <ref role="3cqZAo" node="2q64CM40JTU" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486EG" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -1105,7 +1105,7 @@
                 <ref role="3VsUkX" node="2q64CM40JDS" resolve="Piece" />
               </node>
               <node concept="liA8E" id="2q64CM40JMJ" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                <ref role="37wK5l" to="wyt6:~Class.getClassLoader()" resolve="getClassLoader" />
               </node>
             </node>
           </node>
@@ -1125,7 +1125,7 @@
                     <ref role="3cqZAo" node="2q64CM40JMD" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM48QZi" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM48QZj" role="37wK5m">
                       <property role="Xl_RC" value="chess/wbishop.png" />
                     </node>
@@ -1145,7 +1145,7 @@
                 <ref role="3cqZAo" node="2q64CM40JMK" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486GD" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -1163,7 +1163,7 @@
                     <ref role="3cqZAo" node="2q64CM40JMD" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM486IM" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM486IN" role="37wK5m">
                       <property role="Xl_RC" value="chess/bbishop.png" />
                     </node>
@@ -1183,7 +1183,7 @@
                 <ref role="3cqZAo" node="2q64CM40JMK" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486G$" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -1305,7 +1305,7 @@
                 <ref role="3VsUkX" node="2q64CM40JDS" resolve="Piece" />
               </node>
               <node concept="liA8E" id="2q64CM40JSJ" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                <ref role="37wK5l" to="wyt6:~Class.getClassLoader()" resolve="getClassLoader" />
               </node>
             </node>
           </node>
@@ -1325,7 +1325,7 @@
                     <ref role="3cqZAo" node="2q64CM40JSD" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM48QZU" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM48QZV" role="37wK5m">
                       <property role="Xl_RC" value="chess/wknight.png" />
                     </node>
@@ -1345,7 +1345,7 @@
                 <ref role="3cqZAo" node="2q64CM40JSK" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486Jm" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>
@@ -1363,7 +1363,7 @@
                     <ref role="3cqZAo" node="2q64CM40JSD" resolve="cl" />
                   </node>
                   <node concept="liA8E" id="2q64CM486N4" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.getResource(java.lang.String)" resolve="getResource" />
                     <node concept="Xl_RD" id="2q64CM486N5" role="37wK5m">
                       <property role="Xl_RC" value="chess/bknight.png" />
                     </node>
@@ -1383,7 +1383,7 @@
                 <ref role="3cqZAo" node="2q64CM40JSK" resolve="icon" />
               </node>
               <node concept="liA8E" id="2q64CM486Jy" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage():java.awt.Image" resolve="getImage" />
+                <ref role="37wK5l" to="dxuu:~ImageIcon.getImage()" resolve="getImage" />
               </node>
             </node>
           </node>

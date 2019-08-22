@@ -371,14 +371,14 @@
             </node>
             <node concept="3y3z36" id="2q64CM40KIe" role="3uHU7w">
               <node concept="1rXfSq" id="2q64CM40KIf" role="3uHU7B">
-                <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
               </node>
               <node concept="2OqwBi" id="2q64CM486nS" role="3uHU7w">
                 <node concept="37vLTw" id="2q64CM486nR" role="2Oq$k0">
                   <ref role="3cqZAo" node="2q64CM40KHZ" resolve="o" />
                 </node>
                 <node concept="liA8E" id="2q64CM486nT" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -453,7 +453,7 @@
         <node concept="3cpWs6" id="2q64CM40KIB" role="3cqZAp">
           <node concept="2YIFZM" id="2q64CM486n1" role="3cqZAk">
             <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
-            <ref role="37wK5l" to="33ny:~Objects.hash(java.lang.Object...):int" resolve="hash" />
+            <ref role="37wK5l" to="33ny:~Objects.hash(java.lang.Object...)" resolve="hash" />
             <node concept="37vLTw" id="2q64CM486n2" role="37wK5m">
               <ref role="3cqZAo" node="2q64CM40KH3" resolve="row" />
             </node>
@@ -678,7 +678,7 @@
                           <ref role="3cqZAo" node="2q64CM40KN5" resolve="pieceList" />
                         </node>
                         <node concept="liA8E" id="2q64CM486ol" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+                          <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object)" resolve="add" />
                           <node concept="AH0OO" id="2q64CM486om" role="37wK5m">
                             <node concept="AH0OO" id="2q64CM486on" role="AHHXb">
                               <node concept="37vLTw" id="2q64CM486oo" role="AHHXb">

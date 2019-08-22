@@ -153,6 +153,68 @@
         </node>
       </node>
     </node>
+    <node concept="eqlvg" id="7jT0QTCs6pn" role="2oCo7h">
+      <property role="TrG5h" value="road sign ahead" />
+      <node concept="1zlxZD" id="7jT0QTCs6rt" role="eqlvh">
+        <property role="TrG5h" value="car" />
+        <node concept="1lJkYq" id="7jT0QTCs6rD" role="1zlxRh">
+          <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+        </node>
+      </node>
+      <node concept="1zlxZD" id="7jT0QTCs6rI" role="eqlvh">
+        <property role="TrG5h" value="direction" />
+        <node concept="2$WXgt" id="7jT0QTCs6rY" role="1zlxRh" />
+      </node>
+      <node concept="2$QgSV" id="7jT0QTCs6s3" role="eqlvi" />
+    </node>
+    <node concept="eqlvg" id="7jT0QTCxvbY" role="2oCo7h">
+      <property role="TrG5h" value="road sign left" />
+      <node concept="1zlxZD" id="7jT0QTCxvbZ" role="eqlvh">
+        <property role="TrG5h" value="car" />
+        <node concept="1lJkYq" id="7jT0QTCxvc0" role="1zlxRh">
+          <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+        </node>
+      </node>
+      <node concept="1zlxZD" id="7jT0QTCxvc1" role="eqlvh">
+        <property role="TrG5h" value="direction" />
+        <node concept="2$WXgt" id="7jT0QTCxvc2" role="1zlxRh" />
+      </node>
+      <node concept="2$QgSV" id="7jT0QTCxvc3" role="eqlvi" />
+    </node>
+    <node concept="eqlvg" id="7jT0QTCLPSj" role="2oCo7h">
+      <property role="TrG5h" value="road sign left 90" />
+      <node concept="1zlxZD" id="7jT0QTCLPSk" role="eqlvh">
+        <property role="TrG5h" value="car" />
+        <node concept="1lJkYq" id="7jT0QTCLPSl" role="1zlxRh">
+          <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+        </node>
+      </node>
+      <node concept="2$QgSV" id="7jT0QTCLPSo" role="eqlvi" />
+    </node>
+    <node concept="eqlvg" id="7jT0QTCxvkq" role="2oCo7h">
+      <property role="TrG5h" value="road sign right" />
+      <node concept="1zlxZD" id="7jT0QTCxvkr" role="eqlvh">
+        <property role="TrG5h" value="car" />
+        <node concept="1lJkYq" id="7jT0QTCxvks" role="1zlxRh">
+          <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+        </node>
+      </node>
+      <node concept="1zlxZD" id="7jT0QTCxvkt" role="eqlvh">
+        <property role="TrG5h" value="direction" />
+        <node concept="2$WXgt" id="7jT0QTCxvku" role="1zlxRh" />
+      </node>
+      <node concept="2$QgSV" id="7jT0QTCxvkv" role="eqlvi" />
+    </node>
+    <node concept="eqlvg" id="7jT0QTCLQ5X" role="2oCo7h">
+      <property role="TrG5h" value="road sign right 90" />
+      <node concept="1zlxZD" id="7jT0QTCLQ5Y" role="eqlvh">
+        <property role="TrG5h" value="car" />
+        <node concept="1lJkYq" id="7jT0QTCLQ5Z" role="1zlxRh">
+          <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+        </node>
+      </node>
+      <node concept="2$QgSV" id="7jT0QTCLQ62" role="eqlvi" />
+    </node>
     <node concept="24Vvte" id="34RjmaQWygY" role="2oCo7h" />
     <node concept="eqlvg" id="34RjmaQWxUm" role="2oCo7h">
       <property role="TrG5h" value="road sign" />
@@ -310,6 +372,35 @@
       </node>
     </node>
     <node concept="24Vvte" id="2v3NsJLidrI" role="2oCo7h" />
+    <node concept="1b7Vn$" id="7jT0QTCAxYb" role="2oCo7h">
+      <property role="1b7Vny" value="adds a car to the Autodrome board" />
+    </node>
+    <node concept="1b7Vn$" id="7jT0QTCAxYc" role="2oCo7h">
+      <property role="1b7Vny" value="col - column number, should be from 1 to 14" />
+    </node>
+    <node concept="1b7Vn$" id="7jT0QTCAxYd" role="2oCo7h">
+      <property role="1b7Vny" value="row - row number, should be from 1 to 10" />
+    </node>
+    <node concept="1b7Vn$" id="7jT0QTCAxYe" role="2oCo7h">
+      <property role="1b7Vny" value="direction - should be one of west, east, north, south" />
+    </node>
+    <node concept="eqlvg" id="7jT0QTCAxYf" role="2oCo7h">
+      <property role="TrG5h" value="add car" />
+      <node concept="2$QgSV" id="7jT0QTCAxYg" role="eqlvi" />
+      <node concept="1zlxZD" id="7jT0QTCAxYh" role="eqlvh">
+        <property role="TrG5h" value="col" />
+        <node concept="3JCee" id="7jT0QTCAxYi" role="1zlxRh" />
+      </node>
+      <node concept="1zlxZD" id="7jT0QTCAxYj" role="eqlvh">
+        <property role="TrG5h" value="row" />
+        <node concept="3JCee" id="7jT0QTCAxYk" role="1zlxRh" />
+      </node>
+      <node concept="1zlxZD" id="7jT0QTCAxYl" role="eqlvh">
+        <property role="TrG5h" value="direction" />
+        <node concept="2$WXgt" id="7jT0QTCAxYm" role="1zlxRh" />
+      </node>
+    </node>
+    <node concept="24Vvte" id="7jT0QTCAxWn" role="2oCo7h" />
     <node concept="24Vvte" id="2v3NsJLidqF" role="2oCo7h" />
     <node concept="1b7Vn$" id="7dyB76FpfnO" role="2oCo7h">
       <property role="1b7Vny" value="Sets the theme for Autodrome" />
@@ -332,6 +423,10 @@
     <node concept="eqlvg" id="2sS$Gh6o1FV" role="2oCo7h">
       <property role="TrG5h" value="start" />
       <node concept="2$QgSV" id="2v3NsJLju3E" role="eqlvi" />
+      <node concept="1zlxZD" id="7uJH3WsFCYL" role="eqlvh">
+        <property role="TrG5h" value="model" />
+        <node concept="2$WXgt" id="7uJH3WsFCZ3" role="1zlxRh" />
+      </node>
       <node concept="1zlxZD" id="18BzPdw8qg9" role="eqlvh">
         <property role="TrG5h" value="carsNumber" />
         <node concept="3JCee" id="18BzPdw8qsg" role="1zlxRh" />
@@ -737,11 +832,14 @@
           <node concept="3dOM_R" id="7dyB76FpEP9" role="3dOMoI" />
           <node concept="e47DK" id="2v3NsJLjtmf" role="3dOMoI">
             <ref role="e47DL" node="2sS$Gh6o1FV" resolve="start" />
+            <node concept="1z9qrE" id="7uJH3WsGpTC" role="e47DM">
+              <property role="1z9qr$" value="AutodromeAII" />
+            </node>
             <node concept="3pNif" id="2v3NsJLjtn5" role="e47DM">
               <property role="3pNhO" value="10" />
             </node>
             <node concept="3pNif" id="2v3NsJLjtnJ" role="e47DM">
-              <property role="3pNhO" value="500" />
+              <property role="3pNhO" value="200" />
             </node>
           </node>
         </node>
@@ -1356,6 +1454,1098 @@
       </node>
     </node>
     <node concept="24Vvte" id="3fs0SyRf_LN" role="2oCo7h" />
+  </node>
+  <node concept="2M3LeA" id="7jT0QTCAZ32">
+    <property role="TrG5h" value="Autodrome Maze" />
+    <node concept="3IqRW4" id="7jT0QTCAZ33" role="1UMHDP">
+      <node concept="2M3fE7" id="7jT0QTCAZ34" role="3IqRN$">
+        <property role="1xsJ6A" value="org.d0sl.examples.auto.AutodromeDSL" />
+        <ref role="2M3fE0" node="6xjv2j_L62R" resolve="AutodromeDSL" />
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCAZ35" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCAZ36" role="3IqRN$">
+        <property role="TrG5h" value="obstacle ahead" />
+        <node concept="1zlxZD" id="7jT0QTCAZ37" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCAZ38" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="2$SPOp" id="7jT0QTCAZ39" role="3Irp8X">
+          <node concept="e47DK" id="7jT0QTCAZ3a" role="2w5wbM">
+            <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+            <node concept="eBqkK" id="7jT0QTCAZ3b" role="e47DM">
+              <ref role="eBqkL" node="7jT0QTCAZ37" resolve="car" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCAZ3c" role="2w5wbZ">
+            <ref role="e47DL" node="6xjv2j_L64D" resolve="car ahead" />
+            <node concept="eBqkK" id="7jT0QTCAZ3d" role="e47DM">
+              <ref role="eBqkL" node="7jT0QTCAZ37" resolve="car" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCAZ3e" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCAZ3A" role="3IqRN$">
+        <property role="TrG5h" value="can move 1" />
+        <node concept="1zlxZD" id="7jT0QTCAZ3B" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCAZ3C" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCAZ3D" role="3Irp8X">
+          <node concept="2$QWnn" id="7jT0QTCAZ3E" role="3dOMoI">
+            <node concept="3IoBA6" id="7jT0QTCAZ3F" role="2w5xVo">
+              <ref role="3Io$gq" node="7jT0QTCAZ36" resolve="obstacle ahead" />
+              <node concept="eBqkK" id="7jT0QTCAZ3G" role="1z1ptF">
+                <ref role="eBqkL" node="7jT0QTCAZ3B" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCAZ3H" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCAZ3I" role="2w5xVo">
+              <ref role="e47DL" node="6xjv2j_L66u" resolve="interference right" />
+              <node concept="eBqkK" id="7jT0QTCAZ3J" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCAZ3B" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2C1uTT" id="7jT0QTCAZ3K" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCAZ3L" role="2C1uS7">
+              <ref role="e47DL" node="34RjmaQWxUm" resolve="road sign" />
+              <node concept="eBqkK" id="7jT0QTCAZ3M" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCAZ3B" resolve="car" />
+              </node>
+            </node>
+            <node concept="e47DK" id="7jT0QTCAZ3N" role="2C1uS3">
+              <ref role="e47DL" node="34RjmaQWyi_" resolve="road sign allows move" />
+              <node concept="eBqkK" id="7jT0QTCAZ3O" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCAZ3B" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCDmk3" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCDmk4" role="2w5xVo">
+              <ref role="e47DL" node="7jT0QTCLQ5X" resolve="road sign right 90" />
+              <node concept="eBqkK" id="7jT0QTCDmk5" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCAZ3B" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCDpoi" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCDpoj" role="2w5xVo">
+              <ref role="e47DL" node="7jT0QTCLPSj" resolve="road sign left 90" />
+              <node concept="eBqkK" id="7jT0QTCDpok" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCAZ3B" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCDplM" role="3dOMoI" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCDsxv" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCDstq" role="3IqRN$">
+        <property role="TrG5h" value="can move" />
+        <node concept="1zlxZD" id="7jT0QTCDstr" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCDsts" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCDstt" role="3Irp8X">
+          <node concept="2$QWnn" id="7jT0QTCDstu" role="3dOMoI">
+            <node concept="3IoBA6" id="7jT0QTCDstv" role="2w5xVo">
+              <ref role="3Io$gq" node="7jT0QTCAZ36" resolve="obstacle ahead" />
+              <node concept="eBqkK" id="7jT0QTCDstw" role="1z1ptF">
+                <ref role="eBqkL" node="7jT0QTCDstr" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCDstx" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCDsty" role="2w5xVo">
+              <ref role="e47DL" node="6xjv2j_L66u" resolve="interference right" />
+              <node concept="eBqkK" id="7jT0QTCDstz" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCDstr" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2C1uTT" id="7jT0QTCDst$" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCDst_" role="2C1uS7">
+              <ref role="e47DL" node="34RjmaQWxUm" resolve="road sign" />
+              <node concept="eBqkK" id="7jT0QTCDstA" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCDstr" resolve="car" />
+              </node>
+            </node>
+            <node concept="e47DK" id="7jT0QTCDstB" role="2C1uS3">
+              <ref role="e47DL" node="34RjmaQWyi_" resolve="road sign allows move" />
+              <node concept="eBqkK" id="7jT0QTCDstC" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCDstr" resolve="car" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCAZ3P" role="3IqRN$" />
+      <node concept="1UMGO$" id="7jT0QTCAZ3Y" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCAZ3Z" role="3IqRN$">
+        <property role="TrG5h" value="can turn right 1" />
+        <node concept="1zlxZD" id="7jT0QTCAZ40" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCAZ41" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCDsTJ" role="3Irp8X">
+          <node concept="2C1uTT" id="7jT0QTCDcQq" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCDcTp" role="2C1uS7">
+              <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+              <node concept="eBqkK" id="7jT0QTCDcVa" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCAZ40" resolve="car" />
+              </node>
+            </node>
+            <node concept="2$QWnn" id="7jT0QTCDiZx" role="2C1uS3">
+              <node concept="e47DK" id="7jT0QTCDiZy" role="2w5xVo">
+                <ref role="e47DL" node="6xjv2j_L65R" resolve="wall right" />
+                <node concept="eBqkK" id="7jT0QTCDiZz" role="e47DM">
+                  <ref role="eBqkL" node="7jT0QTCAZ40" resolve="car" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCDt7p" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCDtbz" role="2w5xVo">
+              <ref role="e47DL" node="7jT0QTCLPSj" resolve="road sign left 90" />
+              <node concept="eBqkK" id="7jT0QTCDtnI" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCAZ40" resolve="car" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCDt4p" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCDt0R" role="3IqRN$">
+        <property role="TrG5h" value="can turn right 2" />
+        <node concept="1zlxZD" id="7jT0QTCDt0S" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCDt0T" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCDt0U" role="3Irp8X">
+          <node concept="2C1uTT" id="7jT0QTCDt0V" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCDt0W" role="2C1uS7">
+              <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+              <node concept="eBqkK" id="7jT0QTCDt0X" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCDt0S" resolve="car" />
+              </node>
+            </node>
+            <node concept="2$QWnn" id="7jT0QTCDt0Y" role="2C1uS3">
+              <node concept="e47DK" id="7jT0QTCDt0Z" role="2w5xVo">
+                <ref role="e47DL" node="6xjv2j_L65R" resolve="wall right" />
+                <node concept="eBqkK" id="7jT0QTCDt10" role="e47DM">
+                  <ref role="eBqkL" node="7jT0QTCDt0S" resolve="car" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCDt11" role="3dOMoI" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQN1N" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQN84" role="3IqRN$">
+        <property role="TrG5h" value="can turn right" />
+        <node concept="1zlxZD" id="7jT0QTCQNbg" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQNbq" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="1zm2fl" id="7jT0QTCQNbv" role="3Irp8X" />
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQNeZ" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQNbA" role="3IqRN$">
+        <property role="TrG5h" value="can turn left" />
+        <node concept="1zlxZD" id="7jT0QTCQNbB" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQNbC" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="1zm2fl" id="7jT0QTCQNbD" role="3Irp8X" />
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCDsB$" role="3IqRN$" />
+      <node concept="1UMGO$" id="7jT0QTCAZ46" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCAZ4f" role="3IqRN$">
+        <property role="TrG5h" value="can turn left 1" />
+        <node concept="1zlxZD" id="7jT0QTCAZ4g" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCAZ4h" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCLXLl" role="3Irp8X">
+          <node concept="2C1uTT" id="7jT0QTCDfXP" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCDfXQ" role="2C1uS7">
+              <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+              <node concept="eBqkK" id="7jT0QTCDfXR" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCAZ4g" resolve="car" />
+              </node>
+            </node>
+            <node concept="2$QWnn" id="7jT0QTCDiVB" role="2C1uS3">
+              <node concept="e47DK" id="7jT0QTCDiVC" role="2w5xVo">
+                <ref role="e47DL" node="6xjv2j_L65k" resolve="wall left" />
+                <node concept="eBqkK" id="7jT0QTCDiVD" role="e47DM">
+                  <ref role="eBqkL" node="7jT0QTCAZ4g" resolve="car" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCLY8s" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCLYep" role="2w5xVo">
+              <ref role="e47DL" node="7jT0QTCLQ5X" resolve="road sign right 90" />
+              <node concept="eBqkK" id="7jT0QTCLYqi" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCAZ4g" resolve="car" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCLXjP" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCLXf5" role="3IqRN$">
+        <property role="TrG5h" value="can turn left 2" />
+        <node concept="1zlxZD" id="7jT0QTCLXf6" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCLXf7" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCLXZw" role="3Irp8X">
+          <node concept="2C1uTT" id="7jT0QTCLXf8" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCLXf9" role="2C1uS7">
+              <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+              <node concept="eBqkK" id="7jT0QTCLXfa" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCLXf6" resolve="car" />
+              </node>
+            </node>
+            <node concept="2$QWnn" id="7jT0QTCLXfb" role="2C1uS3">
+              <node concept="e47DK" id="7jT0QTCLXfc" role="2w5xVo">
+                <ref role="e47DL" node="6xjv2j_L65k" resolve="wall left" />
+                <node concept="eBqkK" id="7jT0QTCLXfd" role="e47DM">
+                  <ref role="eBqkL" node="7jT0QTCLXf6" resolve="car" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCLXZx" role="3dOMoI" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCAZ4o" role="3IqRN$" />
+      <node concept="1UMGO$" id="7jT0QTCAZ4p" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCAZ4w" role="3IqRN$">
+        <property role="TrG5h" value="can stop" />
+        <node concept="1zlxZD" id="7jT0QTCAZ4x" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCAZ4y" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="1zm2fl" id="7jT0QTCD12Z" role="3Irp8X">
+          <property role="1zm2fk" value="false" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCAZ4J" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCAZ52" role="3IqRN$">
+        <property role="TrG5h" value="start" />
+        <node concept="3dOMoJ" id="7jT0QTCAZ53" role="3Irp8X">
+          <node concept="1b7Vn$" id="7jT0QTCAZ54" role="3dOMoI">
+            <property role="1b7Vny" value="set walls" />
+          </node>
+          <node concept="e47DK" id="7jT0QTCAZ55" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCAZ56" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCAZ57" role="e47DM">
+              <property role="3pNhO" value="1" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCC3fo" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCC3fp" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCC3fq" role="e47DM">
+              <property role="3pNhO" value="2" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCC3jI" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCC3jJ" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCC3jK" role="e47DM">
+              <property role="3pNhO" value="3" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCC3op" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCC3oq" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCC3or" role="e47DM">
+              <property role="3pNhO" value="4" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCC3tp" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCC3tq" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCC3tr" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCC3yI" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCC3yJ" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCC3yK" role="e47DM">
+              <property role="3pNhO" value="6" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCC3Co" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCC3Cp" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCC3Cq" role="e47DM">
+              <property role="3pNhO" value="7" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCC3FK" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCC3FL" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCC3FM" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCCeRL" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCCeRM" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCCeRN" role="e47DM">
+              <property role="3pNhO" value="9" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCCeZi" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCCeZj" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCCeZk" role="e47DM">
+              <property role="3pNhO" value="11" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCCf78" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCCf79" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCCf7a" role="e47DM">
+              <property role="3pNhO" value="12" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCAZ58" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCAZ59" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCAZ5a" role="e47DM">
+              <property role="3pNhO" value="14" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCC6ep" role="3dOMoI" />
+          <node concept="e47DK" id="7jT0QTCAZ5b" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCAZ5c" role="e47DM">
+              <property role="3pNhO" value="10" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCAZ5d" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCC6sw" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCC6sx" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCC6sy" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCC70M" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCC70N" role="e47DM">
+              <property role="3pNhO" value="6" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCC70O" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCCsRd" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCCsRe" role="e47DM">
+              <property role="3pNhO" value="4" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCCsRf" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCCwsj" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCCwsk" role="e47DM">
+              <property role="3pNhO" value="1" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCCwsl" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCC6hZ" role="3dOMoI" />
+          <node concept="1b7Vn$" id="7jT0QTCAZ5e" role="3dOMoI">
+            <property role="1b7Vny" value="set road signs" />
+          </node>
+          <node concept="e47DK" id="7jT0QTCAZ5f" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCAZ5g" role="e47DM">
+              <property role="3pNhO" value="7" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCAZ5h" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCAZ5i" role="e47DM">
+              <property role="1z9qr$" value="east" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCCkEs" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCCkEt" role="e47DM">
+              <property role="3pNhO" value="9" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCCkEu" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCCkEv" role="e47DM">
+              <property role="1z9qr$" value="west" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCCk_E" role="3dOMoI" />
+          <node concept="e47DK" id="7jT0QTCAZ5j" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCAZ5k" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCAZ5l" role="e47DM">
+              <property role="3pNhO" value="10" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCAZ5m" role="e47DM">
+              <property role="1z9qr$" value="north" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCCpVT" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCCpVU" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCCpVV" role="e47DM">
+              <property role="3pNhO" value="13" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCCpVW" role="e47DM">
+              <property role="1z9qr$" value="south" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCAZ5r" role="3dOMoI" />
+          <node concept="e47DK" id="7jT0QTCCt5_" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCCt5A" role="e47DM">
+              <property role="3pNhO" value="3" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCCt5B" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCCt5C" role="e47DM">
+              <property role="1z9qr$" value="west" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCCt5D" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCCt5E" role="e47DM">
+              <property role="3pNhO" value="2" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCCt5F" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCCt5G" role="e47DM">
+              <property role="1z9qr$" value="east" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCCt0n" role="3dOMoI" />
+          <node concept="e47DK" id="7jT0QTCAZ5s" role="3dOMoI">
+            <ref role="e47DL" node="2sS$Gh6o1FV" resolve="start" />
+            <node concept="1z9qrE" id="7uJH3WsGpi_" role="e47DM">
+              <property role="1z9qr$" value="Autodrome Maze" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCAZ5t" role="e47DM">
+              <property role="3pNhO" value="1" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCAZ5u" role="e47DM">
+              <property role="3pNhO" value="200" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCAZ5x" role="3IqRN$" />
+    </node>
+  </node>
+  <node concept="2M3LeA" id="7jT0QTCQIq5">
+    <property role="TrG5h" value="Autodrome Maze good" />
+    <node concept="3IqRW4" id="7jT0QTCQIq6" role="1UMHDP">
+      <node concept="2M3fE7" id="7jT0QTCQIq7" role="3IqRN$">
+        <property role="1xsJ6A" value="org.d0sl.examples.auto.AutodromeDSL" />
+        <ref role="2M3fE0" node="6xjv2j_L62R" resolve="AutodromeDSL" />
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQIq8" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQIq9" role="3IqRN$">
+        <property role="TrG5h" value="obstacle ahead" />
+        <node concept="1zlxZD" id="7jT0QTCQIqa" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQIqb" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="2$SPOp" id="7jT0QTCQIqc" role="3Irp8X">
+          <node concept="e47DK" id="7jT0QTCQIqd" role="2w5wbM">
+            <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+            <node concept="eBqkK" id="7jT0QTCQIqe" role="e47DM">
+              <ref role="eBqkL" node="7jT0QTCQIqa" resolve="car" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIqf" role="2w5wbZ">
+            <ref role="e47DL" node="6xjv2j_L64D" resolve="car ahead" />
+            <node concept="eBqkK" id="7jT0QTCQIqg" role="e47DM">
+              <ref role="eBqkL" node="7jT0QTCQIqa" resolve="car" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQIqh" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQIqi" role="3IqRN$">
+        <property role="TrG5h" value="can move" />
+        <node concept="1zlxZD" id="7jT0QTCQIqj" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQIqk" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCQIql" role="3Irp8X">
+          <node concept="2$QWnn" id="7jT0QTCQIqm" role="3dOMoI">
+            <node concept="3IoBA6" id="7jT0QTCQIqn" role="2w5xVo">
+              <ref role="3Io$gq" node="7jT0QTCQIq9" resolve="obstacle ahead" />
+              <node concept="eBqkK" id="7jT0QTCQIqo" role="1z1ptF">
+                <ref role="eBqkL" node="7jT0QTCQIqj" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCQIqp" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIqq" role="2w5xVo">
+              <ref role="e47DL" node="6xjv2j_L66u" resolve="interference right" />
+              <node concept="eBqkK" id="7jT0QTCQIqr" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqj" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2C1uTT" id="7jT0QTCQIqs" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIqt" role="2C1uS7">
+              <ref role="e47DL" node="34RjmaQWxUm" resolve="road sign" />
+              <node concept="eBqkK" id="7jT0QTCQIqu" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqj" resolve="car" />
+              </node>
+            </node>
+            <node concept="e47DK" id="7jT0QTCQIqv" role="2C1uS3">
+              <ref role="e47DL" node="34RjmaQWyi_" resolve="road sign allows move" />
+              <node concept="eBqkK" id="7jT0QTCQIqw" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqj" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCQIqx" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIqy" role="2w5xVo">
+              <ref role="e47DL" node="7jT0QTCLQ5X" resolve="road sign right 90" />
+              <node concept="eBqkK" id="7jT0QTCQIqz" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqj" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCQIq$" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIq_" role="2w5xVo">
+              <ref role="e47DL" node="7jT0QTCLPSj" resolve="road sign left 90" />
+              <node concept="eBqkK" id="7jT0QTCQIqA" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqj" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCQIqB" role="3dOMoI" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQIqC" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQIqD" role="3IqRN$">
+        <property role="TrG5h" value="can move 1" />
+        <node concept="1zlxZD" id="7jT0QTCQIqE" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQIqF" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCQIqG" role="3Irp8X">
+          <node concept="2$QWnn" id="7jT0QTCQIqH" role="3dOMoI">
+            <node concept="3IoBA6" id="7jT0QTCQIqI" role="2w5xVo">
+              <ref role="3Io$gq" node="7jT0QTCQIq9" resolve="obstacle ahead" />
+              <node concept="eBqkK" id="7jT0QTCQIqJ" role="1z1ptF">
+                <ref role="eBqkL" node="7jT0QTCQIqE" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCQIqK" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIqL" role="2w5xVo">
+              <ref role="e47DL" node="6xjv2j_L66u" resolve="interference right" />
+              <node concept="eBqkK" id="7jT0QTCQIqM" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqE" resolve="car" />
+              </node>
+            </node>
+          </node>
+          <node concept="2C1uTT" id="7jT0QTCQIqN" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIqO" role="2C1uS7">
+              <ref role="e47DL" node="34RjmaQWxUm" resolve="road sign" />
+              <node concept="eBqkK" id="7jT0QTCQIqP" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqE" resolve="car" />
+              </node>
+            </node>
+            <node concept="e47DK" id="7jT0QTCQIqQ" role="2C1uS3">
+              <ref role="e47DL" node="34RjmaQWyi_" resolve="road sign allows move" />
+              <node concept="eBqkK" id="7jT0QTCQIqR" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqE" resolve="car" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQIqS" role="3IqRN$" />
+      <node concept="1UMGO$" id="7jT0QTCQIqT" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQIqU" role="3IqRN$">
+        <property role="TrG5h" value="can turn right" />
+        <node concept="1zlxZD" id="7jT0QTCQIqV" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQIqW" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCQIqX" role="3Irp8X">
+          <node concept="2C1uTT" id="7jT0QTCQIqY" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIqZ" role="2C1uS7">
+              <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+              <node concept="eBqkK" id="7jT0QTCQIr0" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqV" resolve="car" />
+              </node>
+            </node>
+            <node concept="2$QWnn" id="7jT0QTCQIr1" role="2C1uS3">
+              <node concept="e47DK" id="7jT0QTCQIr2" role="2w5xVo">
+                <ref role="e47DL" node="6xjv2j_L65R" resolve="wall right" />
+                <node concept="eBqkK" id="7jT0QTCQIr3" role="e47DM">
+                  <ref role="eBqkL" node="7jT0QTCQIqV" resolve="car" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCQIr4" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIr5" role="2w5xVo">
+              <ref role="e47DL" node="7jT0QTCLPSj" resolve="road sign left 90" />
+              <node concept="eBqkK" id="7jT0QTCQIr6" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIqV" resolve="car" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQIr7" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQIr8" role="3IqRN$">
+        <property role="TrG5h" value="can turn right 1" />
+        <node concept="1zlxZD" id="7jT0QTCQIr9" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQIra" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCQIrb" role="3Irp8X">
+          <node concept="2C1uTT" id="7jT0QTCQIrc" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIrd" role="2C1uS7">
+              <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+              <node concept="eBqkK" id="7jT0QTCQIre" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIr9" resolve="car" />
+              </node>
+            </node>
+            <node concept="2$QWnn" id="7jT0QTCQIrf" role="2C1uS3">
+              <node concept="e47DK" id="7jT0QTCQIrg" role="2w5xVo">
+                <ref role="e47DL" node="6xjv2j_L65R" resolve="wall right" />
+                <node concept="eBqkK" id="7jT0QTCQIrh" role="e47DM">
+                  <ref role="eBqkL" node="7jT0QTCQIr9" resolve="car" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCQIri" role="3dOMoI" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQIrj" role="3IqRN$" />
+      <node concept="1UMGO$" id="7jT0QTCQIrk" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQIrl" role="3IqRN$">
+        <property role="TrG5h" value="can turn left" />
+        <node concept="1zlxZD" id="7jT0QTCQIrm" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQIrn" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCQIro" role="3Irp8X">
+          <node concept="2C1uTT" id="7jT0QTCQIrp" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIrq" role="2C1uS7">
+              <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+              <node concept="eBqkK" id="7jT0QTCQIrr" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIrm" resolve="car" />
+              </node>
+            </node>
+            <node concept="2$QWnn" id="7jT0QTCQIrs" role="2C1uS3">
+              <node concept="e47DK" id="7jT0QTCQIrt" role="2w5xVo">
+                <ref role="e47DL" node="6xjv2j_L65k" resolve="wall left" />
+                <node concept="eBqkK" id="7jT0QTCQIru" role="e47DM">
+                  <ref role="eBqkL" node="7jT0QTCQIrm" resolve="car" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2$QWnn" id="7jT0QTCQIrv" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIrw" role="2w5xVo">
+              <ref role="e47DL" node="7jT0QTCLQ5X" resolve="road sign right 90" />
+              <node concept="eBqkK" id="7jT0QTCQIrx" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIrm" resolve="car" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQIry" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQIrz" role="3IqRN$">
+        <property role="TrG5h" value="can turn left 1" />
+        <node concept="1zlxZD" id="7jT0QTCQIr$" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQIr_" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="3dOMoJ" id="7jT0QTCQIrA" role="3Irp8X">
+          <node concept="2C1uTT" id="7jT0QTCQIrB" role="3dOMoI">
+            <node concept="e47DK" id="7jT0QTCQIrC" role="2C1uS7">
+              <ref role="e47DL" node="6xjv2j_L63d" resolve="wall ahead" />
+              <node concept="eBqkK" id="7jT0QTCQIrD" role="e47DM">
+                <ref role="eBqkL" node="7jT0QTCQIr$" resolve="car" />
+              </node>
+            </node>
+            <node concept="2$QWnn" id="7jT0QTCQIrE" role="2C1uS3">
+              <node concept="e47DK" id="7jT0QTCQIrF" role="2w5xVo">
+                <ref role="e47DL" node="6xjv2j_L65k" resolve="wall left" />
+                <node concept="eBqkK" id="7jT0QTCQIrG" role="e47DM">
+                  <ref role="eBqkL" node="7jT0QTCQIr$" resolve="car" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCQIrH" role="3dOMoI" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQIrI" role="3IqRN$" />
+      <node concept="1UMGO$" id="7jT0QTCQIrJ" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQIrK" role="3IqRN$">
+        <property role="TrG5h" value="can stop" />
+        <node concept="1zlxZD" id="7jT0QTCQIrL" role="1zlniG">
+          <property role="TrG5h" value="car" />
+          <node concept="1lJkYq" id="7jT0QTCQIrM" role="1zlxRh">
+            <ref role="1lJkYr" node="6xjv2j_L62U" resolve="Car" />
+          </node>
+        </node>
+        <node concept="1zm2fl" id="7jT0QTCQIrN" role="3Irp8X">
+          <property role="1zm2fk" value="false" />
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQIrO" role="3IqRN$" />
+      <node concept="3Irp9s" id="7jT0QTCQIrP" role="3IqRN$">
+        <property role="TrG5h" value="start" />
+        <node concept="3dOMoJ" id="7jT0QTCQIrQ" role="3Irp8X">
+          <node concept="1b7Vn$" id="7jT0QTCQIrR" role="3dOMoI">
+            <property role="1b7Vny" value="set walls" />
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIrS" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIrT" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIrU" role="e47DM">
+              <property role="3pNhO" value="1" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIrV" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIrW" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIrX" role="e47DM">
+              <property role="3pNhO" value="2" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIrY" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIrZ" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIs0" role="e47DM">
+              <property role="3pNhO" value="3" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIs1" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIs2" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIs3" role="e47DM">
+              <property role="3pNhO" value="4" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIs4" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIs5" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIs6" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIs7" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIs8" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIs9" role="e47DM">
+              <property role="3pNhO" value="6" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsa" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIsb" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsc" role="e47DM">
+              <property role="3pNhO" value="7" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsd" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIse" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsf" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsg" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIsh" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsi" role="e47DM">
+              <property role="3pNhO" value="9" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsj" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIsk" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsl" role="e47DM">
+              <property role="3pNhO" value="11" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsm" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIsn" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIso" role="e47DM">
+              <property role="3pNhO" value="12" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsp" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIsq" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsr" role="e47DM">
+              <property role="3pNhO" value="14" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCQIss" role="3dOMoI" />
+          <node concept="e47DK" id="7jT0QTCQIst" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIsu" role="e47DM">
+              <property role="3pNhO" value="10" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsv" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsw" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIsx" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsy" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsz" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIs$" role="e47DM">
+              <property role="3pNhO" value="6" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIs_" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsA" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIsB" role="e47DM">
+              <property role="3pNhO" value="4" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsC" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsD" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidsM" resolve="add wall" />
+            <node concept="3pNif" id="7jT0QTCQIsE" role="e47DM">
+              <property role="3pNhO" value="1" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsF" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCQIsG" role="3dOMoI" />
+          <node concept="1b7Vn$" id="7jT0QTCQIsH" role="3dOMoI">
+            <property role="1b7Vny" value="set road signs" />
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsI" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCQIsJ" role="e47DM">
+              <property role="3pNhO" value="7" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsK" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCQIsL" role="e47DM">
+              <property role="1z9qr$" value="east" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsM" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCQIsN" role="e47DM">
+              <property role="3pNhO" value="9" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsO" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCQIsP" role="e47DM">
+              <property role="1z9qr$" value="west" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCQIsQ" role="3dOMoI" />
+          <node concept="e47DK" id="7jT0QTCQIsR" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCQIsS" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsT" role="e47DM">
+              <property role="3pNhO" value="10" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCQIsU" role="e47DM">
+              <property role="1z9qr$" value="north" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIsV" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCQIsW" role="e47DM">
+              <property role="3pNhO" value="5" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIsX" role="e47DM">
+              <property role="3pNhO" value="13" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCQIsY" role="e47DM">
+              <property role="1z9qr$" value="south" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCQIsZ" role="3dOMoI" />
+          <node concept="e47DK" id="7jT0QTCQIt0" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCQIt1" role="e47DM">
+              <property role="3pNhO" value="3" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIt2" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCQIt3" role="e47DM">
+              <property role="1z9qr$" value="west" />
+            </node>
+          </node>
+          <node concept="e47DK" id="7jT0QTCQIt4" role="3dOMoI">
+            <ref role="e47DL" node="2v3NsJLidNa" resolve="add road sign" />
+            <node concept="3pNif" id="7jT0QTCQIt5" role="e47DM">
+              <property role="3pNhO" value="2" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIt6" role="e47DM">
+              <property role="3pNhO" value="8" />
+            </node>
+            <node concept="1z9qrE" id="7jT0QTCQIt7" role="e47DM">
+              <property role="1z9qr$" value="east" />
+            </node>
+          </node>
+          <node concept="3dOM_R" id="7jT0QTCQIt8" role="3dOMoI" />
+          <node concept="e47DK" id="7jT0QTCQIt9" role="3dOMoI">
+            <ref role="e47DL" node="2sS$Gh6o1FV" resolve="start" />
+            <node concept="1z9qrE" id="7uJH3WsGpCQ" role="e47DM">
+              <property role="1z9qr$" value="Autodrome Maze good" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQIta" role="e47DM">
+              <property role="3pNhO" value="3" />
+            </node>
+            <node concept="3pNif" id="7jT0QTCQItb" role="e47DM">
+              <property role="3pNhO" value="250" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1UMGO$" id="7jT0QTCQItc" role="3IqRN$" />
+    </node>
   </node>
 </model>
 
