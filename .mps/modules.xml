@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/external/external.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.d0sl.examples/org.d0sl.examples.msd" folder="" />
     </projectModules>
   </component>

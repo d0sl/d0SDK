@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+// Applying Mps plugin
+apply from: 'https://raw.githubusercontent.com/d0sl/mps-gradle-plugin/master/mps.gradle'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    mps group: 'black.ninia', name: 'jep', version: '3.8.2'
+}
+
+// mps_compose - added dependencies to MPS project

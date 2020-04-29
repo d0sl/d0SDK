@@ -7,3 +7,5 @@ Here are you can find the examples of usage Delta Zero Semantic language.
 2) Chess example shows how to teach a robot to arrange the 8 chess queens in such a way they dont take each other.
 
 See documentation (installation & guides) on [d0sl.org](http://d0sl.org).
+
+This project is created with MPS 2019.3 version
