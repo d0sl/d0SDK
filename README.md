@@ -8,4 +8,4 @@ Here are you can find the examples of usage Delta Zero Semantic language.
 
 See documentation (installation & guides) on [d0sl.org](http://d0sl.org).
 
-This project is created with MPS 2019.3 version
+This project is created with MPS 2021.3 version, build 213.6777.846 from 15.02.2022
